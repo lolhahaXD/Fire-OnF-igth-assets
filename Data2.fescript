@@ -1,0 +1,9 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "IPORTANT!:this only HAS a executed lua so dont expect code here and code on the script!\r\nCODED BY Stroberor Studios %Scratch(script-should-have-oly-a_lua)\r\n\r\n\r\n%Scratch(data-should-store-on-this-code-but-not-store-on-savedata):true\r\n%Scratch(data-should-NOT-be-corrupted-code:XX35681DATA):true\r\n\r\n\r\nCODED BY HTMLIFY! %ScratchHTML5(load-last-code-on-the-HTML5):true" ],
+		"block": "execute_lua",
+		"subcode": []
+	} ]
+} ]
