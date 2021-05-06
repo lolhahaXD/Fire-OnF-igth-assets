@@ -1,0 +1,36 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "%ScratchHTML5(should-appear-text-Copyrigth by Stupidity studios 2021):true", ">=", "%ScratchHTML5(should-press-start-to-continue):true" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "%ScratchHTML5(error-with-text-of-loading-should-appear-at-80%):false", "%ScratchHTML5(game-should-have-version-2.9.5):true" ],
+			"block": "set_data"
+		}, {
+			"args": [ "%ScratchHTML5(can-acces-every-level):true", "%ScratchHTML5(code-should-be-sent-to-Scratch):true" ],
+			"block": "set_var"
+		} ]
+	} ]
+}, {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "NOTE BEFORE CODE HERE: this is not a fnf fangame. this WAS inspired by fnf so dont you dare say its a fnf fangame.\r\n%Scratch(send-code-to-game):true\r\n%Scratch(should-have-loading-screen):false\r\n%Scratch(data-should-be-stored-in-the-.fescript):true\r\n\r\n\r\n\r\n\r\n(CODE ENDED.)" ],
+		"block": "execute_lua",
+		"subcode": [ {
+			"args": [ "%Scratch(pixel-art-should-load-fantastic-by-10-seconds):true", "%Scratch(game-should-crash-when-level-beated):false" ],
+			"block": "set_var"
+		}, {
+			"args": [ "%Scratch(game-should-load-lua-script-when-game-started):true", "%Scratch(when-game-is-started-should-appear-ERROR:CODE-HAS-ERRORS):false" ],
+			"block": "set_data"
+		}, {
+			"args": [ "%Scratch(game-should-have-errors-of-code-behind-the-scenes):true idk how is this working tho", "%Scratch(code-should-load-fast-when-Scratch-is-loading):true+" ],
+			"block": "set_data_string"
+		}, {
+			"args": [ "%Scratch(game-should-be-60-fps):true  %Scratch2(game-should-run-with-Scratch3.0):true", "==", "%Scratch(sb3-should-load-easter-eggs-after-level):false" ],
+			"block": "compare_values",
+			"subcode": []
+		} ]
+	} ]
+} ]
