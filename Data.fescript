@@ -1,0 +1,15 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "%Scratch(data-saves-when-level-finished)", "%Scratch(can-play-other-levels):true" ],
+		"block": "set_data_string"
+	}, {
+		"args": [ "%Scratch(HTML5-of-game-should-press-start-to-continue):true", "%Scratch(HTML5-should-use-advancedAI):false" ],
+		"block": "set_var"
+	}, {
+		"args": [ "%gameHTML5(can-play-any-level):true", ">=", "%ScratchHTML5(should-show-only-InGame-assets):true" ],
+		"block": "compare_values",
+		"subcode": []
+	} ]
+} ]
