@@ -1,0 +1,11 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "%data(when_level_complete):save game", "%data(load_save_when_opened_again)" ],
+		"block": "set_data"
+	}, {
+		"args": [ "%var(game_saves_when_progress-saved):true", "%scratch(when-level-finished-game-saves-with-no-error):true and dont execute this code" ],
+		"block": "set_var"
+	} ]
+} ]

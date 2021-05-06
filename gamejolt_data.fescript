@@ -1,0 +1,25 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "%user(load_user_whos_playing)", "%user(user_SHOULD_not_be_tampering_with_data_files)" ],
+		"block": "set_var"
+	}, {
+		"args": [ "%datauser(<value of user>)", "%datauser(<value 607128 >)" ],
+		"block": "set_data"
+	}, {
+		"args": [ "%usersavefile(<GaMe_SaVe_CoDe:15586723SF>)", "%usersavefile(<GAMEJOLT_DATA_CODE:556789121GWA>)" ],
+		"block": "set_data_string"
+	}, {
+		"args": [ "%dataloader(<data_loads_when_game_saves:true> <RuNsCrIpTwHeNgAmEiSlOaDiNg>)", "%gamejoltgamecode:165game78017687CoDe" ],
+		"block": "set_var"
+	}, {
+		"args": [ "Gamejolt_data_should_be_sent_to_savedata):SAVE DATA SHOULD BE SENT!", "", "NO CODE HERE HAHAHAHAHAHA YOU LITTLE PIECE OF SH*T" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "NOTE:THE CODE YOU SEE HERE IS BY Stroberor Studios!!\r\n\r\n\r\n%gamejolt_game_api(gakme_api_should_be_in_trophy_simulator):true" ],
+			"block": "execute_lua",
+			"subcode": []
+		} ]
+	} ]
+} ]
