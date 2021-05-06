@@ -1,0 +1,9 @@
+ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "Porpla: i will kill you!\r\nyou beated my friends\r\nnow i beat you.\r\nMonday: your scared! haha\r\and your ugly too wha\r\nt a idiot!" ],
+		"block": "execute_lua",
+		"subcode": []
+	} ]
+} ]
