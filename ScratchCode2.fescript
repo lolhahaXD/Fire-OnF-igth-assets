@@ -1,0 +1,29 @@
+[ {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "NOTE:code by HTMLify %ScratchHTML5(game-HTML5-should-be-on-zip-with-index.html):true", ">=", "NOTE: code by Stroberor Studios %ScratchHTML5(HTML5-loading-should-copy-demo-loading):true" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "%ScratchHTML5(game-should-have-all-levels-unlocked):true", "%ScratchHTML5(HTMilify-exports-the-HTML5) is this even a code?" ],
+			"block": "set_var"
+		} ]
+	} ]
+}, {
+	"args": [],
+	"block": "on_game_loop",
+	"subcode": [ {
+		"args": [ "NOTE code by Stroberor Studio credit to them!\r\n%Scratch(game-should-load-HTML5-features):true\r\n%Scratch(game-should-run-at-fullscreen):false\r\n%Scratch(allow-options):false because its made with Scratch\r\n%Scratch(should-show-HTML5-loading-screen):false\r\n%Scratch(game-should-take-9-day-to-download):false\r\n%Scratch(game-resolution-should-be-1440x):false\r\n\r\n\r\n\r\n\r\nCODE ENED YOU PIECE OF SHIT" ],
+		"block": "execute_lua",
+		"subcode": [ {
+			"args": [ "%Scratch(execute/load-lua-when-game-launched):true", "ERROR: THIS CODE IS NOT WORKING RIGTH NOW BECAUSE THIS IS A BAD RELEASE IT HAS TO BE A GOOD RELEASE!" ],
+			"block": "set_data"
+		}, {
+			"args": [ "%Scratch(error-of-last-code-should-be-forever):true", "%SCRATCHGAMECODER(game-should-start-normally-every-asset-connected-to-the-game-everything-should-be-fine):true" ],
+			"block": "set_var"
+		}, {
+			"args": [ "LAST CODE! %Scratch(game-should-be-fine-and-the-audio-should-run-fine):true", "READ LAST CODE IF YOU SKIPPED IT BECAUSE THERE IS NO CODE!" ],
+			"block": "set_data_string"
+		} ]
+	} ]
+} ]
