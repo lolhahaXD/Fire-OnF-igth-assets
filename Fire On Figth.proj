@@ -1,0 +1,10 @@
+load resources):true
+load sprites):true
+load icons):true
+load dialogues):true
+load level assets):true
+show loading screen on HTML5):true
+when player exits make a save):true
+when player enters the game back load save file):true
+options):false
+save icon must not be up it must be down):false
