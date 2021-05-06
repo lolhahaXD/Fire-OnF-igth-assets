@@ -1,0 +1,12 @@
+[ {
+	"args": [],
+	"block": "on_night_start",
+	"subcode": [ {
+		"args": [ "%load(every_.proj_file_goes_in this_script)", "", "%HTML5load(load_last_code)" ],
+		"block": "compare_values",
+		"subcode": [ {
+			"args": [ "%HTML5load(every_file_must_contain_the_assets_of_the_file_loaded)", "%load(load_last_code)" ],
+			"block": "set_data"
+		} ]
+	} ]
+} ]
